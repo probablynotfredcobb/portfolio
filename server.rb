@@ -1,6 +1,6 @@
 require 'sinatra'
-require 'nokogiri'
-require 'httparty'
+# require 'nokogiri'
+# require 'httparty'
 
 get '/' do
  "Hi there"
