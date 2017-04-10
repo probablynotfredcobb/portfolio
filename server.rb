@@ -3,5 +3,5 @@ require 'sinatra'
 # require 'httparty'
 
 get '/' do
- "Hi there"
+ send_file File.expand_path('index.html',settings.public_folder)
 end
